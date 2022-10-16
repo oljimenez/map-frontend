@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.5",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.5.3",
+    "leaflet": "^1.9.2",
+    "leaflet-geosearch": "^3.7.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "leaflet.locatecontrol": "^0.76.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.8.0",
+    "@types/leaflet-geosearch": "^3.0.0",
+    "@types/leaflet-routing-machine": "^3.2.4",
+    "@types/leaflet.locatecontrol": "^0.74.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-leaflet": "^2.8.2",
+    "@vitejs/plugin-react": "^2.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-svgr": "^2.2.1",
+    "vite-tsconfig-paths": "^3.5.1"
+  }
+}
